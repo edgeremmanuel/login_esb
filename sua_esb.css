@@ -80,22 +80,17 @@ body{
   border-color: green;
   outline: none;
 }
-
 .input-login .help {
  position: absolute;
   display: block;
-  margin-top: 6px;
+  margin-top: 404px;
   font-size: 13px;
   color: green;
   text-decoration: none;
   right: o;
   top: 0;
-  padding: 0 4px;
+  padding-left: 227px;
   line-height: 3px;
-}
-
-.input-login .help:hover {
-  text-decoration: underline;
 }
 .input-password {
   margin-bottom: 20px;
@@ -111,37 +106,27 @@ body{
 
 .input-password input[type="password"] {
   width: 100%;
-  padding: 10px 38px 10px 12px; /* space for icon */
+  padding: 10px 38px 10px 12px;
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 16px;
   transition: border-color 0.2s;
 }
-
-.input-password input[type="password"]:focus {
-  border-color: #007bff;
-  outline: none;
-}
-
 .password-toggle-icon {
   position: absolute;
   right: 12px;
   top: 38px;
   cursor: pointer;
-  color: #888;
   font-size: 18px;
 }
-
-.input-password .fa-eye:hover {
-  color: #007bff;
-}
-
 .input-password a {
-  display: block;
-  margin-top: 6px;
-  font-size: 13px;
-  color: #007bff;
+  position: absolute;
+  font-size: 10px;
+  color: green;
   text-decoration: none;
+  right: 12px;
+  top: 10px;
+  padding-left: 12px;
 }
 
 .input-password a:hover {
