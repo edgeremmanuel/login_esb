@@ -169,10 +169,10 @@ body{
 }
 .footer {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 14px;
   color: #666;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 @media (max-width: 600px) {
   .form {
